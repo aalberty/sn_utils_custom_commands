@@ -1,1 +1,68 @@
-
+{
+    "xp": {
+        "url": "/snd_xplore.do",
+        "hint": "Opens xplorex",
+        "fields": "",
+        "overwriteurl": ""
+    },
+    "dev": {
+        "url": "//env hagertydev",
+        "hint": "open hagertydev",
+        "fields": "",
+        "overwriteurl": ""
+    },
+    "test": {
+        "url": "//env hagertytest",
+        "hint": "open hagertytest",
+        "fields": "",
+        "overwriteurl": ""
+    },
+    "prod": {
+        "url": "//env hagerty",
+        "hint": "open hagerty prod",
+        "fields": "",
+        "overwriteurl": ""
+    },
+    "th": {
+        "url": "/nav_to.do?uri=%2Fsys_import_set_run_list.do",
+        "hint": "Open list view of Transform Histories",
+        "fields": "",
+        "overwriteurl": ""
+    },
+    "us": {
+        "url": "sys_update_set_list.do?sysparm_query=",
+        "hint": "Open local update sets",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "fs": {
+        "url": "sys_script_fix_list.do",
+        "hint": "Open fix scripts",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "import": {
+        "url": "https://hagerty$0.service-now.com/nav_to.do?uri=%2Fupload.do%3Fsysparm_referring_url%3Dsys_remote_update_set_list.do%253Fsysparm_fixed_query%253Dsys_class_name%253Dsys_remote_update_set%26sysparm_target%3Dsys_remote_update_set",
+        "hint": "",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "importhere": {
+        "url": "upload.do?sysparm_referring_url=sys_remote_update_set_list.do%3Fsysparm_fixed_query%3Dsys_class_name%3Dsys_remote_update_set&sysparm_target=sys_remote_update_set",
+        "hint": "",
+        "fields": "undefined",
+        "order": 0,
+        "overwriteurl": ""
+    },
+    "back": {
+        "url": "sys_ui_navigator_history_list.do?sysparm_query=user=gs.getUserId()^ORDERBYDESCsys_created_on",
+        "hint": "Go to a previous page",
+        "fields": "title, description, url",
+        "order": "",
+        "overwriteurl": "$url",
+        "inlineonly": true
+    }
+}

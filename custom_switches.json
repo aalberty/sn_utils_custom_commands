@@ -1,0 +1,8 @@
+{
+    "me": {
+        "description": "Created by me",
+        "value": "^sys_created_by=javascript:gs.getUserName()",
+        "type": "encodedquerypart"
+    }
+    
+}
