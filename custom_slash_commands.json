@@ -37,7 +37,7 @@
         "overwriteurl": ""
     },
     "fs": {
-        "url": "sys_script_fix_list.do",
+        "url": "sys_script_fix_list.do?sysparm_query=",
         "hint": "Open fix scripts",
         "fields": "",
         "order": 0,
