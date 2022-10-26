@@ -36,6 +36,13 @@
         "order": 0,
         "overwriteurl": ""
     },
+    "rus": {
+        "url": "sys_remote_update_set_list.do?sysparm_query=",
+        "hint": "Open retrieved update sets",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
+    },
     "fs": {
         "url": "sys_script_fix_list.do?sysparm_query=",
         "hint": "Open fix scripts",
