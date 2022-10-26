@@ -71,5 +71,12 @@
         "order": "",
         "overwriteurl": "$url",
         "inlineonly": true
+    },
+    "exe": {
+        "url": "sys_script_execution_history_list.do?sysparm_query=executed_by=javascript:gs.getUserID()",
+        "hint": "Open your script execution history",
+        "fields": "",
+        "order": 0,
+        "overwriteurl": ""
     }
 }
