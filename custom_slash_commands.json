@@ -78,5 +78,9 @@
         "fields": "",
         "order": 0,
         "overwriteurl": ""
+    },
+    "cb": {
+        "url": "now/build/catalog/home",
+        "hint": "open catalog builder"
     }
 }
