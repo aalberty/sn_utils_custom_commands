@@ -79,6 +79,12 @@
         "order": 0,
         "overwriteurl": ""
     },
+    "http_override": {
+        "url": "/sys.scripts.do?content=var overrideBoolName = 'glide.outbound_http_log.override'; var logLevelName = 'glide.outbound_http_log.override.level'; gs.setProperty(overrideBoolName, '$1'); gs.setProperty(logLevelName, '$2');",
+        "hint": "BG script to set outbound http log level. First parameter boolean for overriding, second is log level (basic, elevated, all)",
+        "fields": "",
+        "order": 0
+    },
     "cb": {
         "url": "now/build/catalog/home",
         "hint": "open catalog builder"
