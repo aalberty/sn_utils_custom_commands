@@ -3,6 +3,12 @@
         "description": "Created by me",
         "value": "^sys_created_by=javascript:gs.getUserName()",
         "type": "encodedquerypart"
+    },
+
+    "cod": {
+        "description": "Created on descending, i.e. '^ORDERBYDESCsys_created_on' encoded query",
+        "value": "^ORDERBYDESCsys_created_on",
+        "type": "encodedquerypart"
     }
     
 }
