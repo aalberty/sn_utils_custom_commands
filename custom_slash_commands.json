@@ -90,12 +90,12 @@
         "hint": "open catalog builder"
     },
     "sct": {
-        "url": "/sc_task_list.do?sysparm_query=^ORDERBYDESCsys_created_on",
+        "url": "sc_task_list.do?sysparm_query=^ORDERBYDESCsys_created_on",
         "hint": "open SC task list view ordered by most to least recently created"
     },
 
     "ritm": {
-        "url": "/sc_req_item_list.do?sysparm_query=^ORDERBYDESCsys_created_on",
+        "url": "sc_req_item_list.do?sysparm_query=^ORDERBYDESCsys_created_on",
         "hint": "open RITM list view ordered by most to least recently created" 
     }
 }
